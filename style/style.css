@@ -5,14 +5,21 @@
  }
 	
 	*|*:root {
-	  /* première étape */
+	  /* premiï¿½re ï¿½tape */
 	  color: black;
 	  animation-name: OUI; /* nom de l'animation */
 	  animation-duration: 1s; /* temps de l'animation (4s) */
 	  animation-iteration-count: infinite; /* nombre de boucles (infinie) */
-	  animation-timing-function: linear; /* accelération de l'animation (constant) */
+	  animation-timing-function: linear; /* accelï¿½ration de l'animation (constant) */
+	  
+	  animation-name: cube; /* nom de l'animation */
+	  animation-duration: 4s; /* temps de l'animation (4s) */
+	  animation-delay: 2s;
+	  animation-iteration-count: infinite; /* nombre de boucles (infinie) */	 
+	  animation-timing-function: ease-in; /* accelï¿½ration de l'animation (dï¿½part lent) */
+	  animation-direction: alternate-reverse;
 	}
-	  /* deuxième étape 
+	  /* deuxiï¿½me ï¿½tape 
 	  @keyframes OUI {
 	  0% {background:rgba(255,140,0,0.1) url("Capture4.png") no-repeat 100px 100px;}
 	  8% {background:rgba(255,140,0,0.2) url("sansTitre.png") no-repeat 100px 100px;}
@@ -29,3 +36,13 @@
 	  100% {background:rgba(255,140,0,0.6) url("Capture.png") no-repeat 100px 100px; }*/
 	  
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Petit cube qui tombe*/
+	

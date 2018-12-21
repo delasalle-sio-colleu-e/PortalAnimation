@@ -2,6 +2,8 @@
 	<!-- Title -->
 	<title>Portal Animation</title>
 		
+	<link rel="icon" href="Images/icon.ico" />
+	
 	<!-- Type -->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	
