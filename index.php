@@ -5,6 +5,6 @@
 <!DOCTYPE HTML>
 <html>
 	<body>
-		<img src="Images/Portal_CompanionCube.png" class = 'cube'>
+		<img src="Images/Thwomp.gif" class = 'cube'>
 	</body> 
 </html>

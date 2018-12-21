@@ -32,11 +32,15 @@
 		
 	
 	.cube{
+		top : 0%;
+		left :100px;
+		
 		position: absolute;
 		animation-name: careFromTheSky; /* nom de l'animation */
-	  	animation-duration: 10s; /* temps de l'animation (4s) */
-	 	animation-iteration-count: infinite; /* nombre de boucles (infinie) */
-	 	animation-timing-function: linear; /* accel�ration de l'animation (constant) */
+	  	animation-duration: 5s; /* temps de l'animation  */
+	  	animation-direction: alternate;
+	 	animation-iteration-count: infinite; /* nombre de boucles */
+	 	animation-timing-function: ease-in; /* accel�ration de l'animation */
 	}
 	
 	/*Petit cube qui tombe*/
@@ -44,27 +48,27 @@
 	{
 	
 		0% {
-			top : 100px;
+			top : 2%;
 			left :100px;
 		}
 		
-		25% {
-			top : 75px;
+		10% {
+			top : 2%;
 			left :100px;
 		}
 		
-		50% {
-			top : 50px;
+		20% {
+			top : 2%;
 			left :100px;
 		}
 		
-		75% {
-			top : 25px;
+		30% {
+			top : 2%;
 			left :100px;
 		}
-		
+				
 		100% {
-			top : 0px;
+			top : 80%;
 			left :100px;
 		}
 		
