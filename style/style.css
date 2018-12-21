@@ -1,8 +1,4 @@
 @charset "ISO-8859-1";
-
- html{
- 	background-image : url("fond.png");
- }
 	
 	*|*:root {		
 	  /* premi�re �tape */
@@ -14,20 +10,62 @@
 	    
 	}
 	  /* deuxi�me �tape */
-	  @keyframes OUI {
-	  0% {background:rgba(255,140,0,0.1) url("Capture4.png") no-repeat 100px 100px;}
-	  8% {background:rgba(255,140,0,0.2) url("sansTitre.png") no-repeat 100px 100px;}
-	  16% {background:rgba(255,140,0,0.3) url("Capture4.png") no-repeat 100px 100px;}
-	  24% {background:rgba(255,140,0,0.4) url("sansTitre.png") no-repeat 100px 100px;}
-	  32% {background:rgba(255,140,0,0.5) url("Capture4.png") no-repeat 100px 100px;}
-	  40% {background:rgba(255,140,0,0.4) url("sansTitre.png") no-repeat 100px 100px;}
-	  48% {background:rgba(255,140,0,0.5) url("Capture4.png") no-repeat 100px 100px;}
-	  56% {background:rgba(255,140,0,0.4) url("sansTitre.png") no-repeat 100px 100px;}
-	  64% {background:rgba(255,140,0,0.6) url("Capture2.png") no-repeat 100px 100px;}
-	  72% {background:rgba(255,140,0,0.7) url("Capture1.2.png") no-repeat 100px 100px;}
-	  80% {background:rgba(255,140,0,0.6) url("Capture1.png") no-repeat 100px 100px; }
-	  88% {background:rgba(255,140,0,0.6) url("Capture3.png") no-repeat 100px 100px; }
-	  100% {background:rgba(255,140,0,0.6) url("Capture.png") no-repeat 100px 100px; }
+	  @keyframes runForLife {
+	  
+	  0% {
+	  	background-image: url("Images/fondPortail.png");
+	  	background-size:cover;
+	  }
+	  
+	  10% {
+	  	background-image:url("Images/bonhomme/animation1.png");
+	  	background-size:cover;
+	  }
+	  
+	  20% {
+	  	background-image:url("Images/bonhomme/animation2.PNG");
+	  	background-size:cover;
+	  }
+	  
+	  30% {
+	  	background-image:url("Images/bonhomme/animation3.png");
+	  	background-size:cover;
+	  }
+	  
+	  40% {
+	  	background-image:url("Images/bonhomme/animation4.png");
+	  	background-size:cover;
+	  }
+	  
+	  50% {
+	  	background-image:url("Images/bonhomme/animation5.png");
+	  	background-size:cover;
+	  }
+	  
+	  60% {
+	  	background-image:url("Images/bonhomme/animation6.png");
+	  	background-size:cover;
+	  }
+	  
+	  70% {
+	 	 background-image:url("Images/bonhomme/animation7.png");
+	  	background-size:cover;
+	  }
+	  
+	  80% {
+	 	background-image:url("Images/bonhomme/animation8.png");
+	  	background-size:cover;
+	  }
+	  
+	  90% {
+	  	background-image:url("images/fondPortail.png");
+	  	background-size:cover;
+	  }
+	  100%{
+	  	background-image:url("Images/fondPortail.png");
+	  	background-size:cover;
+	  }
+  
 	}
 		
 	
