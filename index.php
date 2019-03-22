@@ -4,7 +4,7 @@
 ?>
 <!DOCTYPE HTML>
 <html>
-	<body style='background-image: url("Images/fondPortail.png");"'>
+	<body>
 		<img src="Images/Portal_CompanionCube.png" class = 'cube'>
 	</body> 
 </html>
