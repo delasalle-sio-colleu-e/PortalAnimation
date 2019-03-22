@@ -5,13 +5,13 @@
 		background-size : cover;
 	}
 	
-	.bonhomme{		
+	.bonhomme{
 	  /* premi�re �tape */
 	  	top : 80%;
 		left :100px;
 		position: absolute;
 		animation-name: runForLife; /* nom de l'animation */
-		animation-duration: 3s; /* temps de l'animation (4s) */
+		animation-duration: 2s; /* temps de l'animation (4s) */
 		animation-iteration-count: infinite; /* nombre de boucles (infinie) */
 		animation-timing-function: linear; /* accel�ration de l'animation (constant) */
 	    
@@ -21,56 +21,61 @@
 	  
 	  0% {
 		top : 80%;
-		left :0%;
+		left :5%;
+		background-image : url("../Images/bonhomme1.png");
 	  }
 	  
 	  10% {
 	  	top : 80%;
-		left : 10%;
+		left : 8%;
+		background-image : url("../Images/bonhomme1.png");
 	  }
 	  
 	  20% {
 		top : 80%;
-		left : 20%;
+		left : 16%;
+		background-image : url("../Images/bonhomme1.png");
 	  }
 	  
 	  30% {
 	  	top : 80%;
-		left : 30%;
+		left : 24%;
+		background-image : url("../Images/bonhomme1.png");
 	  }
 	  
 	  40% {
 	  	top : 80%;
-		left : 40%;
+		left : 32%;
+		background-image : url("../Images/bonhomme1.png");
 	  }
 	  
 	  50% {
 	  	top : 80%;
-		left : 50%;
+		left : 40%;
 	  }
 	  
 	  60% {
 	  	top : 80%;
-		left : 60%;
+		left : 48%;
 	  }
 	  
 	  70% {
 	 	top : 80%;
-		left : 70%;
+		left : 56%;
 	  }
 	  
 	  80% {
 	 	top : 80%;
-		left : 80%;
+		left : 64%;
 	  }
 	  
 	  90% {
 	  	top : 80%;
-		left : 90%;
+		left : 72%;
 	  }
 	  100%{
 	  	top : 80%;
-		left : 100%;
+		left : 80%;
 	  }
   
 	}

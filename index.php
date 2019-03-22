@@ -6,6 +6,6 @@
 <html>
 	<body>
 		<img src="Images/Portal_CompanionCube.png" class = 'cube'>
-		<img src="Images/bonhomme1.png" class = 'bonhomme'>
+		<div class = 'bonhomme'></div>
 	</body> 
 </html>
